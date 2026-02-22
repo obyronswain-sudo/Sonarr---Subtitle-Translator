@@ -145,14 +145,6 @@ Em **Settings → External API Key**, insira a chave da API desejada. As chaves 
 | `modules/logger.py` | Sistema de logs |
 | `modules/config_loader.py` | Carregamento de configurações e variáveis de ambiente |
 
----
-
-## Segurança
-
-- As chaves de API são armazenadas em `config.json`, que está no `.gitignore`
-- O webhook Flask escuta apenas em `127.0.0.1` por padrão e exige um token de autenticação (`X-Sonarr-Token`)
-- Caminhos recebidos pelo webhook são validados contra o diretório de mídia configurado
-- Nomes de modelos Ollama são validados com regex antes de serem passados ao subprocess
 
 ---
 
