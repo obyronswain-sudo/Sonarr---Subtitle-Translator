@@ -1,0 +1,25 @@
+# Todas as dependências (essenciais + opcionais) — instale com: pip install -r requirements-full.txt
+
+# Essenciais
+PySide6>=6.5.0
+requests>=2.31.0
+langdetect>=1.0.9
+chardet>=5.0.0
+tenacity>=8.2.0
+python-dotenv>=1.0.0
+qdarkstyle>=3.2.0
+psutil>=5.9.0
+
+# APIs de tradução externas (opcionais — instale apenas as que for usar)
+deepl>=1.15.0
+openai>=1.0.0
+google-generativeai>=0.3.0
+# googletrans usa engenharia reversa da API do Google e pode parar de funcionar a qualquer momento.
+# Não há versão estável publicada; a RC abaixo é a última conhecida como funcional.
+# Alternativa recomendada: use a API oficial do Google Cloud Translation.
+googletrans==4.0.0rc1
+
+# OCR para legendas PGS/VobSub (opcional — requer Tesseract instalado no sistema)
+pytesseract>=0.3.10
+Pillow>=10.0.0
+opencv-python>=4.8.0

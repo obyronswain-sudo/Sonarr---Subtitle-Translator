@@ -1,0 +1,49 @@
+# ─── Configuração local (contém chaves de API — NUNCA commitar) ───────────────
+config.json
+api_status.json
+
+# ─── Logs e cache ─────────────────────────────────────────────────────────────
+app.log
+*.log
+translation_cache.db
+translation_index.json
+
+# ─── Arquivos de usuário ──────────────────────────────────────────────────────
+subtitles/
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ─── Ambientes virtuais ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── IDE / Editor ─────────────────────────────────────────────────────────────
+.vscode/
+.qodo/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Variáveis de ambiente ────────────────────────────────────────────────────
+.env
+
+# ─── Arquivos temporários de extração ─────────────────────────────────────────
+*.sup
+*.track*.srt
+*.track*.ass
+*.track*.ocr.srt
+
+# ─── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
