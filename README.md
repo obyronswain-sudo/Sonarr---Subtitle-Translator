@@ -1,6 +1,10 @@
-# Tradutor de Legendas com IA
+# HOBBY - Tradutor de Legendas - Ollama
 
-Aplicação Python com interface gráfica completa para extrair, traduzir e salvar legendas de séries e filmes — com suporte a Sonarr, arquivos locais, múltiplos idiomas, OCR para Blu-ray e pré-visualização editável antes de salvar.
+Esse é um programa a príncipio para ser utilizado com em conjunto com o Sonarr para traduzir legendas (em geral localmente), de animes. Pode ser aplicado para outros projetos mas não foi desenvolvido para isso. 
+
+A principal diferença para o Lingarr é que você não precisa esperar o Bazarr achar a legenda para ele traduzir, mas sim, esse programa tem a capacidade de extrair direto do arquivo de vídeo, caso ele possua uma legenda dentro do arquivo .mkv .mp4 e etc... Mas você vai precisar escolher quais animes/séries traduzir. 
+
+Aplicação 100% em Python com interface gráfica completa para extrair, traduzir e salvar legendas de animes e séries — com amplo suporte ao Sonarr, arquivos locais, múltiplos idiomas, OCR para Blu-ray e pré-visualização editável antes de salvar.
 
 ## Funcionalidades
 
@@ -151,6 +155,15 @@ Em **Settings → External API Key**, insira a chave da API desejada. As chaves 
 - Nomes de modelos Ollama são validados com regex antes de serem passados ao subprocess
 
 ---
+
+
+##DISCLAIMER 
+
+Essa é uma versão beta, mas funcional principalmente com o ollama, pode ser um pouco chatinho de configurar, por isso em breve deixarei essa versão compilada para facilitar. 
+
+OUTRA COISA!!! A qualidade da tradução dependente exclusivamente do modelo utilizado, meu melhor resultado foi com o qwen 32b, porém demora bastante. Eu tive um resultado satisfátório também com o llama 3:8b, então pesquise e sinta-se livre para usar qual modelo achar melhor.
+
+Esse programa foi feito por um leigo, pra suprir uma deficiência bem nichada e não precisar fazer tudo na mão com o OpenSubtitles com animes que não tem legenda em PT-BR em nenhum lugar, prestígie os trabalho dos tradutores, e para os casos onde não consiga encontrar nenhuma legenda no seu idioma de maneira nenhuma, esse programa tem o seu lugar ao sol. 
 
 ## Licença
 
