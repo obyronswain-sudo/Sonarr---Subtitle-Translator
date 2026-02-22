@@ -52,8 +52,8 @@ Aplicação 100% em Python com interface gráfica completa para extrair, traduzi
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/obyronswain-sudo/Sonarr---Subtitle-Translator.git
+cd Sonarr---Subtitle-Translator
 ```
 
 ### 2. Instale as dependências Python
