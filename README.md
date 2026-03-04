@@ -1,4 +1,4 @@
-# HOBBY - Tradutor de Legendas - Ollama
+# CLUSTER- Tradutor de Legendas - Ollama
 
 Esse é um programa a príncipio para ser utilizado com em conjunto com o Sonarr para traduzir legendas (em geral localmente), de animes. Pode ser aplicado para outros projetos mas não foi desenvolvido para isso. 
 
